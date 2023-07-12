@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="StyleEncrip.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <img src="Imagenes/logo.png" alt="Logo" class="logo" />
+
+    </header>
+    <main>
+      <h1>Encriptador de Texto</h1>
+
+      <section class="interactuar">
+        <textarea id="entrada" class="areas" placeholder="Ingrese algo..."></textarea>
+        <div class="validacion" id="validacion">
+          <img src="Imagenes/m.adv.png" alt="advertencia" />
+        </div>
+        <div class="botones">
+          <button id="encriptar" class="boton">Encriptar</button>
+          <button id="limpiar" class="boton">Limpiar</button>
+          <button id="desencriptar" class="boton">Desencriptar</button>
+        </div>
+      </section>
+      <section class="resultados">
+        <textarea id="salida" class="areas" readonly></textarea>
+        <div id="ModeloFigma">
+          <img
+            src="./imagenes/muñeco.png"
+            alt="Muñeco con lupa y fondo de puntos azules"
+            class="muñeco"
+          />
+        </div>
+        <img src="./imagenes/texto.png" alt="" class="texto" id="mensaje" />
+        <div class="botones">
+          <input type="submit" value="Copiar texto" id="copiar" class="copiar" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <i><h2>Yaribel Valdes</h2></i>
+      </div>
+    </footer>
+  </body>
+   <script src="./EncrypJs.js"></script>
+</html>

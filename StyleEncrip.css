@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive, 'Playfair Display', serif;
+  color: #B00C4B;
+  text-decoration: none;
+  display: block;
+  position: fixed;
+  width: 100%;
+  max-width: 1000px;
+  top: 14px;
+  font-size: 40px;
+  text-align: center;
+  background: linear-gradient(to right, #B00C4B, #4C9FB2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  background: #D0E8DD;
+  padding-bottom: 40px;
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start; /* Updated alignment for the main container */
+}
+
+.interactuar {
+  margin-bottom: 100px;
+
+}
+
+.notificacion {
+  display: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#entrada {
+  width: 300px;
+  height: 200px;
+  resize: none;
+  border-radius: 5px;
+  text-align: left;
+  margin-right: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  box-shadow: 10px 10px lightblue;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.boton {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+#encriptar {
+  background-color: #B00C4B;
+}
+
+#limpiar {
+  background-color: #00B00B;
+}
+
+#desencriptar {
+  background-color: #4C9FB2;
+}
+
+.resultados {
+  text-align: center;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+#salida {
+  width: 300px;
+  height: 200px;
+  resize: none;
+  border-radius: 5px;
+  text-align: left;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.copiar {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer {
+  background-image: linear-gradient(darkblue, white, darkred);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  text-align: center;
+  text-shadow: 2px 2px whitesmoke;
+  font-size: 40px;
+  color: steelblue;
+}
