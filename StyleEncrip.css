@@ -1,9 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  vertical-align: center;
   font-family: 'Playfair Display', serif;
 }
 
@@ -12,10 +9,8 @@ h1 {
   color: #B00C4B;
   text-decoration: none;
   display: block;
-  position: fixed;
-  width: 100%;
-  max-width: 1000px;
-  top: 14px;
+  position: static;
+  height: 60%;
   font-size: 40px;
   text-align: center;
   background: linear-gradient(to right, #B00C4B, #4C9FB2);
@@ -30,14 +25,9 @@ body {
 
 main {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
-  align-items: flex-start; /* Updated alignment for the main container */
-}
-
-.interactuar {
-  margin-bottom: 100px;
-
+  align-items: flex-start;
+    flex-direction: row; 
 }
 
 .notificacion {
@@ -51,17 +41,24 @@ main {
 }
 
 #entrada {
-  width: 300px;
-  height: 200px;
-  resize: none;
+  width: 50%;
+  height: 380px;
   border-radius: 5px;
   text-align: left;
   margin-right: 10px;
   background-color: #f2f2f2;
-  padding: 10px;
+  padding-left: 20px;
+  padding:50px;
   box-shadow: 10px 10px lightblue;
 }
+#ModeloFigma{
+  position: absolute;
+  width: 50%;
+  height: 380px;
+  top:150px;
+opacity: 32% ;
 
+}
 .botones {
   display: flex;
   justify-content: center;
@@ -94,21 +91,16 @@ main {
   background-color: #4C9FB2;
 }
 
-.resultados {
-  text-align: center;
-  margin-bottom: 100px;
-  position: relative;
-}
-
 #salida {
-  width: 300px;
-  height: 200px;
+  width:40%;
+  height: 380px;
   resize: none;
   border-radius: 5px;
   text-align: left;
   margin-bottom: 10px;
   background-color: #f2f2f2;
-  padding: 10px;
+ box-shadow: 10px 10px lightblue;
+ padding: 60px;
 }
 
 .copiar {
@@ -121,6 +113,7 @@ main {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+  top: auto;
 }
 
 footer {
